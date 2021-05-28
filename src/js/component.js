@@ -4,8 +4,6 @@ $(document).ready(function () {
   $('.order-btn').click(function (e) {
     if($(this).hasClass('disabled')) {
       return false;
-    }else{
-      
     }
   })
 

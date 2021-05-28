@@ -1,23 +1,12 @@
 & {
-  .nav {
-    padding-left: 15px;
 
-    .logo {
-      padding: 44px 15px 6px;
-    }
+  .logo {
+    padding: 44px 15px 6px;
   }
 
   .head {
     padding-top: 40px;
     padding-bottom: 80px;
-  }
-
-  .h1-title {
-    font-size: 24px;
-  }
-
-  .h2-title {
-    font-size: 21px;
   }
 
   .register-banner {
@@ -33,9 +22,10 @@
       margin-bottom: 0;
     }
   }
+
   .head-img {
     img {
-        width: 100%;
+      width: 100%;
     }
   }
 }
