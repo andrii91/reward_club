@@ -1,0 +1,144 @@
+@import 'variables';
+
+*{
+  outline: none;
+}
+a:focus, a:hover, input:focus, input:hover {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  @import 'MediaQueries/main';
+  overflow-x: hidden;
+}
+
+.nav {
+  padding: 0 80px;
+  .logo {
+      background: linear-gradient(323.53deg, #188AAC 19.13%, #1AA6BD 76.62%), #1488AB;
+  max-width: 200px;
+  padding: 100px 20px 20px 20px;
+    display: inline-block;
+  }
+}
+
+
+
+.head {
+  padding: 0 0 150px;
+}
+
+.h1-title {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 120%;
+  margin-bottom: 10px;
+  color: #142948;
+  span {
+    color: #1A99B6;
+    display: block;
+  }
+
+}
+
+.h1-subtitle {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 170%;
+color: #1A99B6;
+  margin-bottom: 40px;
+}
+
+.article-item {
+  margin-bottom: 50px;
+  ul {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #142948;
+    margin: 0;
+    padding-left: 25px;
+    li {
+      margin-bottom: 12px;
+      a {
+        color: #142948;
+        font-weight: bold;
+        
+      }
+    }
+  }
+}
+
+.h2-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 170%;
+  color: #142948;
+margin-bottom: 10px;
+}
+
+.register-banner {
+  max-width: 670px;
+  background: rgba(100, 181, 226, .04);
+  border-radius: 2px;
+  padding: 35px 40px;
+}
+
+.order-btn {
+  background: #1A99B6;
+  border-radius: 3px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #FFFFFF;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+  &.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+    &:hover {
+      opacity: .5;
+    }
+  }
+  &:hover {
+    color: #fff;
+    opacity: .9;
+  }
+  &:focus {
+    color: #fff;
+  }
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.checkbox-group {
+  .label-content {
+    margin-top: 20px;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}

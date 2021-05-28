@@ -1,0 +1,13 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+//    @import '../mobile';
+  	& {
+      .nav {
+        padding-left: 15px;
+      }
+      .head {
+        padding-top: 40px;
+      }
+	}
+}
