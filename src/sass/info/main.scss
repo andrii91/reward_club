@@ -26,6 +26,10 @@ body {
 
 .head {
   padding: 0 0 150px;
+  min-height: calc(100vh - 155px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .h1-title {
@@ -141,4 +145,11 @@ margin-bottom: 10px;
 
 .mt-50 {
   margin-top: 50px;
+}
+
+.head-img {
+  margin-top: 50px;
+  img {
+    max-width: 470px;
+  }
 }
