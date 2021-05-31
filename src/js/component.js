@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('input').styler();
+//  $('input').styler();
 
   $('.order-btn').click(function (e) {
     if($(this).hasClass('disabled')) {
